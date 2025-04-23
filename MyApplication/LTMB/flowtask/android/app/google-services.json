@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239148872108",
+    "project_id": "to-do-list-4a00e",
+    "storage_bucket": "to-do-list-4a00e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239148872108:android:3acf967dd9c93a7b35ca09",
+        "android_client_info": {
+          "package_name": "com.example.flowtask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANX1pTn-UpCDNyejw4_YvLIr2C8qR3gHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
