@@ -3,6 +3,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../api/AccountAPIService.dart';
 import '../model/Account.dart';
 import '../view/NoteListScreen.dart';
+import '../view/RegisterScreen.dart';
+
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -187,14 +189,21 @@ class _LoginScreenState extends State<LoginScreen> {
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
+
               const SizedBox(height: 20),
-              // Liên kết quên mật khẩu (tùy chọn)
+
               Center(
                 child: TextButton(
                   onPressed: () {
-                    // Xử lý quên mật khẩu
+                    // Chuyển đến trang đăng ký tài khoản
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RegisterScreen(),
+                      ),
+                    );
                   },
-                  child: Text('Quên mật khẩu?'),
+                  child: Text('Đăng ký tài khoản mới'),
                 ),
               ),
             ],

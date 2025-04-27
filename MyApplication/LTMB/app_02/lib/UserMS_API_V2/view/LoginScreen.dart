@@ -118,11 +118,12 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               const SizedBox(height: 20),
               // Logo hoặc hình ảnh (tùy chọn)
-              Icon(
-                Icons.account_circle,
-                size: 80,
-                color: Theme.of(context).primaryColor,
+              CircleAvatar(
+                radius: 60, // bán kính avatar (tức 80x80)
+                backgroundImage: AssetImage('assets/images/3.jpg'),
               ),
+
+
               const SizedBox(height: 40),
               // Trường tên đăng nhập
               TextFormField(

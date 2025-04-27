@@ -5,6 +5,8 @@ import 'package:app_02/my_wiget_02_form/form_8_ImgPicker.dart';
 import 'package:app_02/UserMS_API_V2/view/UserListScreen.dart';
 import 'package:app_02/UserMS_API_V2/view/LoginScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:app_02/_images/_img.dart';
+import 'package:app_02/_Navigator/Navigator.push.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -70,7 +72,7 @@ class _AuthCheckWidget extends StatelessWidget {
           );
         } else {
           // Chưa đăng nhập, hiển thị màn hình đăng nhập
-          return  LoginScreen();
+          return  FirstScreen();
         }
       },
     );

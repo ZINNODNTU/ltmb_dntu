@@ -55,6 +55,21 @@ class UserDetailScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 24),
+            Text(
+              'Hình ảnh liên quan',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+            SizedBox(height: 12),
+            Column(
+              children: [
+                Image.asset('assets/images/1.jpg'),
+                SizedBox(height: 12),
+                Image.asset('assets/images/2.png'),
+                SizedBox(height: 12),
+                Image.asset('assets/images/3.jpg'),
+              ],
+            ),
           ],
         ),
       ),
