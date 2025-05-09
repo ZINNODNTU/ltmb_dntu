@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277293194910",
+    "project_id": "tasktodo-5964f",
+    "storage_bucket": "tasktodo-5964f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277293194910:android:d4bd2219fac1cee6a0658f",
+        "android_client_info": {
+          "package_name": "com.example.tasktodo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGarG67MIu4bdnrxjctJIdppVvqeW3_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
